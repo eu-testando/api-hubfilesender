@@ -1,0 +1,32 @@
+{
+  "name": "msc_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "config": "^3.3.11",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.0",
+    "firebase": "^10.12.2",
+    "firebase-admin": "^12.2.0",
+    "form-data": "^4.0.0",
+    "fs": "^0.0.1-security",
+    "hub_filesender": "file:",
+    "msc_backend": "file:",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.7.0",
+    "globals": "^15.8.0",
+    "nodemon": "^3.1.4"
+  }
+}

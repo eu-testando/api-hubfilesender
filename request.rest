@@ -1,0 +1,658 @@
+POST http://localhost:3000/api/colchoes
+Content-Type: application/json
+
+{
+  "name": "RPikenocat",
+  "dimensions":"Esmeralda",
+  "price": 99999,
+  "description": "Nasceu pra jogar de singed",
+  "emPromocao": false,
+  "promocao":300,
+  "image": "Lostruin"
+}
+
+###
+GET http://localhost:3000/api/colchoes/6605c10a8df6125808c1d154
+
+###
+
+GET http://localhost:3000/api/colchoes/
+
+
+###
+
+DELETE  http://localhost:3000/api/colchoes/6605ace14aa5004519c9245d
+
+
+###
+PUT http://localhost:3000/api/colchoes/6605ac999c4867df357929ec
+Content-Type: application/json
+
+{
+  "name": "RPikenocat",
+  "dimensions":"Esmeralda",
+  "price": 99999,
+  "description": "Nasceu pra jogar de singed",
+  "emPromocao": false,
+  "promocao":300,
+  "image": "Lostruin"
+}
+
+
+###
+
+POST https://hub-file-sender.onrender.com/api/images
+Content-Type: application/json
+
+
+###
+POST https://api.hubot.app.br/api/messages/send
+Content-Type: application/json
+Authorization: Bearer 874569845684
+
+{
+  "number": "5581994668975",
+  "body": "Oi!"
+}
+        
+###
+POST https://bot2.hubot.app.br/api/v1/typebots/meu-typebot-c86gm8k/startChat/
+Content-Type: application/json
+
+{
+  "message": "5581994668975 teste@gmail.com"
+}
+
+
+
+
+###
+
+GET https://api.hubot.app.br/tickets/kanban?teste=true
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2FybmFtZSI6Ikh1Ym90IiwicHJvZmlsZSI6ImFkbWluIiwiaWQiOjMsImNvbXBhbnlJZCI6MywiaWF0IjoxNzI3ODc3NDQ2LCJleHAiOjE3MzA0Njk0NDZ9.bF-7WoaToRgnlIh74wBA88d3DP4Us3P2NQweYmHvY9g
+
+###
+POST http://localhost:3000/api/typebot
+Content-Type: application/json
+
+{
+  "leads": [
+    {
+      "id": "3901640835",
+      "email": "henrique@hubvision.com.br",
+      "name": "Henrique",
+      "company": null,
+      "job_title": null,
+      "bio": null,
+      "public_url": "http://app.rdstation.com.br/leads/public/50c38cde-e9f6-4194-b93a-c50630f76d3f",
+      "created_at": "2024-10-01T14:08:17.000-03:00",
+      "opportunity": "false",
+      "number_conversions": "1",
+      "user": null,
+      "first_conversion": {
+        "content": {
+          "event_type": "CONVERSION",
+          "event_identifier": "fale-agora",
+          "identificador": "fale-agora",
+          "event_timestamp": "2024-10-01T17:08:17Z",
+          "created_at": "2024-10-01T17:08:17Z",
+          "conversion_url": "https://materiais.asalocadora.com.br/carroporassinatura-perg-resp-leadsdabase",
+          "conversion_domain": "materiais.asalocadora.com.br",
+          "google_analytics_client_id": "987992038.1727802452",
+          "conversion_identifier": "fale-agora",
+          "traffic_source": "encoded_eyJmaXJzdF9zZXNzaW9uIjp7InZhbHVlIjoiKG5vbmUpIiwiZXh0cmFfcGFyYW1zIjp7fX0sImN1cnJlbnRfc2Vzc2lvbiI6eyJ2YWx1ZSI6Iihub25lKSIsImV4dHJhX3BhcmFtcyI6e319LCJjcmVhdGVkX2F0IjoxNzI3ODAyNDUxNTM0fQ==",
+          "email_lead": "henrique@hubvision.com.br",
+          "Deseja atendimento de qual unidade?": "Recife",
+          "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+          "device": "desktop",
+          "asset_id": 3361195,
+          "conversion_payload": "{\"redirect_to\":\"https://web.whatsapp.com/send?phone=+5508000800015\\u0026text=Poderia+me+ajudar%3F\"}",
+          "__cdp__original_event": {
+            "event_batch_uuid": "97e8acda-f21b-40f0-b9de-75ad23101625",
+            "event_batch_index": 0,
+            "event_identifier": "fale-agora",
+            "event_uuid": "c57e2849-711f-46ce-915a-c42c31c63c79",
+            "event_family": "CDP",
+            "event_type": "CONVERSION",
+            "payload": {
+              "client_tracking_id": "7d5212dc-8701-4703-a5cd-95a8d250e37c",
+              "conversion_url": "https://materiais.asalocadora.com.br/carroporassinatura-perg-resp-leadsdabase",
+              "conversion_domain": "materiais.asalocadora.com.br",
+              "google_analytics_client_id": "987992038.1727802452",
+              "conversion_identifier": "fale-agora",
+              "internal_source": "12",
+              "c_utmz": "",
+              "traffic_source": "encoded_eyJmaXJzdF9zZXNzaW9uIjp7InZhbHVlIjoiKG5vbmUpIiwiZXh0cmFfcGFyYW1zIjp7fX0sImN1cnJlbnRfc2Vzc2lvbiI6eyJ2YWx1ZSI6Iihub25lKSIsImV4dHJhX3BhcmFtcyI6e319LCJjcmVhdGVkX2F0IjoxNzI3ODAyNDUxNTM0fQ==",
+              "privacy_data": {
+                "browser": "{\"analytics\":true,\"functional\":true,\"banner_type\":\"info\"}"
+              },
+              "name": "Henrique",
+              "email": "henrique@hubvision.com.br",
+              "personal_phone": "+55 (81) 99466-8975",
+              "cf_deseja_atendimento_de_qual_unidade": "Recife",
+              "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+              "device": "desktop",
+              "asset_id": 3361195,
+              "conversion_payload": "{\"redirect_to\":\"https://web.whatsapp.com/send?phone=+5508000800015\\u0026text=Poderia+me+ajudar%3F\"}"
+            },
+            "event_timestamp": "2024-10-01T17:08:17Z"
+          },
+          "Nome": "Henrique",
+          "Telefone": "+55 (81) 99466-8975",
+          "UF": null
+        },
+        "created_at": "2024-10-01T14:08:17.000-03:00",
+        "cumulative_sum": "1",
+        "source": "fale-agora",
+        "conversion_origin": {
+          "source": "(direct)",
+          "medium": "(none)",
+          "value": null,
+          "campaign": "(direct)",
+          "channel": "Direct"
+        }
+      },
+      "last_conversion": {
+        "content": {
+          "event_type": "CONVERSION",
+          "event_identifier": "fale-agora",
+          "identificador": "fale-agora",
+          "event_timestamp": "2024-10-01T17:08:17Z",
+          "created_at": "2024-10-01T17:08:17Z",
+          "conversion_url": "https://materiais.asalocadora.com.br/carroporassinatura-perg-resp-leadsdabase",
+          "conversion_domain": "materiais.asalocadora.com.br",
+          "google_analytics_client_id": "987992038.1727802452",
+          "conversion_identifier": "fale-agora",
+          "traffic_source": "encoded_eyJmaXJzdF9zZXNzaW9uIjp7InZhbHVlIjoiKG5vbmUpIiwiZXh0cmFfcGFyYW1zIjp7fX0sImN1cnJlbnRfc2Vzc2lvbiI6eyJ2YWx1ZSI6Iihub25lKSIsImV4dHJhX3BhcmFtcyI6e319LCJjcmVhdGVkX2F0IjoxNzI3ODAyNDUxNTM0fQ==",
+          "email_lead": "henrique@hubvision.com.br",
+          "Deseja atendimento de qual unidade?": "Recife",
+          "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+          "device": "desktop",
+          "asset_id": 3361195,
+          "conversion_payload": "{\"redirect_to\":\"https://web.whatsapp.com/send?phone=+5508000800015\\u0026text=Poderia+me+ajudar%3F\"}",
+          "__cdp__original_event": {
+            "event_batch_uuid": "97e8acda-f21b-40f0-b9de-75ad23101625",
+            "event_batch_index": 0,
+            "event_identifier": "fale-agora",
+            "event_uuid": "c57e2849-711f-46ce-915a-c42c31c63c79",
+            "event_family": "CDP",
+            "event_type": "CONVERSION",
+            "payload": {
+              "client_tracking_id": "7d5212dc-8701-4703-a5cd-95a8d250e37c",
+              "conversion_url": "https://materiais.asalocadora.com.br/carroporassinatura-perg-resp-leadsdabase",
+              "conversion_domain": "materiais.asalocadora.com.br",
+              "google_analytics_client_id": "987992038.1727802452",
+              "conversion_identifier": "fale-agora",
+              "internal_source": "12",
+              "c_utmz": "",
+              "traffic_source": "encoded_eyJmaXJzdF9zZXNzaW9uIjp7InZhbHVlIjoiKG5vbmUpIiwiZXh0cmFfcGFyYW1zIjp7fX0sImN1cnJlbnRfc2Vzc2lvbiI6eyJ2YWx1ZSI6Iihub25lKSIsImV4dHJhX3BhcmFtcyI6e319LCJjcmVhdGVkX2F0IjoxNzI3ODAyNDUxNTM0fQ==",
+              "privacy_data": {
+                "browser": "{\"analytics\":true,\"functional\":true,\"banner_type\":\"info\"}"
+              },
+              "name": "Henrique",
+              "email": "henrique@hubvision.com.br",
+              "personal_phone": "+55 (81) 99466-8975",
+              "cf_deseja_atendimento_de_qual_unidade": "Recife",
+              "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+              "device": "desktop",
+              "asset_id": 3361195,
+              "conversion_payload": "{\"redirect_to\":\"https://web.whatsapp.com/send?phone=+5508000800015\\u0026text=Poderia+me+ajudar%3F\"}"
+            },
+            "event_timestamp": "2024-10-01T17:08:17Z"
+          },
+          "Nome": "Henrique",
+          "Telefone": "+55 (81) 99466-8975",
+          "UF": null
+        },
+        "created_at": "2024-10-01T14:08:17.000-03:00",
+        "cumulative_sum": "1",
+        "source": "fale-agora",
+        "conversion_origin": {
+          "source": "(direct)",
+          "medium": "(none)",
+          "value": null,
+          "campaign": "(direct)",
+          "channel": "Direct"
+        }
+      },
+      "custom_fields": {
+        "Deseja atendimento de qual unidade?": "Recife"
+      },
+      "website": null,
+      "personal_phone": "+55 (81) 99466-8975",
+      "mobile_phone": null,
+      "city": null,
+      "state": null,
+      "tags": null,
+      "lead_stage": "Lead",
+      "last_marked_opportunity_date": null,
+      "uuid": "50c38cde-e9f6-4194-b93a-c50630f76d3f",
+      "fit_score": "d",
+      "interest": 0
+    }
+  ]
+}
+
+
+
+
+###
+{
+  "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJodHRwczovL2FwaS5yZC5zZXJ2aWNlcyIsInN1YiI6InVxUVRmQXlCa1RaTXNnQ2VLWlNfS3B0X1FhdXg0YTdhR21jNXpCZWZfUjhAY2xpZW50cyIsImF1ZCI6Imh0dHBzOi8vYXBwLnJkc3RhdGlvbi5jb20uYnIvYXBpL3YyLyIsImFwcF9uYW1lIjoiSHVib3QgMiB0ZXN0ZSIsImV4cCI6MTcyOTE3OTA4MywiaWF0IjoxNzI5MDkyNjgzLCJzY29wZSI6IiJ9.SuECbed6fDJMrEfMbG8ehhDQiaL9X6Mr3CEozgKkUz-lwG7itI4bEwgKNWhlm-rWvlDxzgSgrmmMVxH6IyZoJ5IGWR3c3RJEEVlg6RwVvpQVZoZfWpKcXfBfHw0LGCZkOvPmKPJ-XDktXQamIDPh7tEhYz1QSzWFXknK7uiqkDPm7ysXwtJq_rxfu2XfWm_h8HeTxzxhTcZr84bYKRIBN_69BGGlvh7JM0lmmazrWplgW5JvLiGqBcSZtjQvyCf6RMgk3cJGPsHgkQEEjXqfQXnnIB9s6SVsNufu5gkmk9IeiIeSvmjL19TfcY7o-CyyJb71vgj5A6PLNjWRQkc5qQ",
+  "expires_in": 86400,
+  "refresh_token": "QE0Ldt6SdPWC9sJr2HeQqblvoinZA2pkNzEx4Eaq_uA"
+}
+
+###
+{
+  "segmentations": [
+    {
+      "id": 4091958,
+      "name": "Todos os contatos da base de Leads",
+      "standard": true,
+      "created_at": "2021-03-29T11:57:21.555-03:00",
+      "updated_at": "2021-03-29T11:57:21.555-03:00",
+      "process_status": "processed",
+      "links": [
+        {
+          "rel": "SEGMENTATIONS.CONTACTS",
+          "href": "https://api.rd.services/platform/segmentations/4091958/contacts",
+          "media": "application/json",
+          "type": "GET"
+        }
+      ]
+    },
+    {
+      "id": 4091959,
+      "name": "Leads (estágio no funil)",
+      "standard": true,
+      "created_at": "2021-03-29T11:57:24.848-03:00",
+      "updated_at": "2021-03-29T11:57:24.848-03:00",
+      "process_status": "processed",
+      "links": [
+        {
+          "rel": "SEGMENTATIONS.CONTACTS",
+          "href": "https://api.rd.services/platform/segmentations/4091959/contacts",
+          "media": "application/json",
+          "type": "GET"
+        }
+      ]
+    },
+    {
+      "id": 4091960,
+      "name": "Leads Qualificados (estágio no funil)",
+      "standard": true,
+      "created_at": "2021-03-29T11:57:27.976-03:00",
+      "updated_at": "2021-03-29T11:57:27.976-03:00",
+      "process_status": "processed",
+      "links": [
+        {
+          "rel": "SEGMENTATIONS.CONTACTS",
+          "href": "https://api.rd.services/platform/segmentations/4091960/contacts",
+          "media": "application/json",
+          "type": "GET"
+        }
+      ]
+    },
+    {
+      "id": 4091961,
+      "name": "Clientes (estágio no funil)",
+      "standard": true,
+      "created_at": "2021-03-29T11:57:31.073-03:00",
+      "updated_at": "2021-03-29T11:57:31.073-03:00",
+      "process_status": "processed",
+      "links": [
+        {
+          "rel": "SEGMENTATIONS.CONTACTS",
+          "href": "https://api.rd.services/platform/segmentations/4091961/contacts",
+          "media": "application/json",
+          "type": "GET"
+        }
+      ]
+    },
+    {
+      "id": 4091963,
+      "name": "Oportunidades",
+      "standard": true,
+      "created_at": "2021-03-29T11:57:34.162-03:00",
+      "updated_at": "2021-03-29T11:57:34.162-03:00",
+      "process_status": "processed",
+      "links": [
+        {
+          "rel": "SEGMENTATIONS.CONTACTS",
+          "href": "https://api.rd.services/platform/segmentations/4091963/contacts",
+          "media": "application/json",
+          "type": "GET"
+        }
+      ]
+    },
+    {
+      "id": 4104084,
+      "name": "Clientes Asa Locadora",
+      "standard": null,
+      "created_at": "2021-03-31T14:08:25.545-03:00",
+      "updated_at": "2021-05-31T16:58:57.351-03:00",
+      "process_status": "processed",
+      "links": [
+        {
+          "rel": "SEGMENTATIONS.CONTACTS",
+          "href": "https://api.rd.services/platform/segmentations/4104084/contacts",
+          "media": "application/json",
+          "type": "GET"
+        }
+      ]
+    },
+    {
+      "id": 4345743,
+      "name": "Leads Entraram em contato pelo WhatsApp",
+      "standard": null,
+      "created_at": "2021-05-27T16:34:52.926-03:00",
+      "updated_at": "2023-04-25T15:41:39.963-03:00",
+      "process_status": "processed",
+      "links": [
+        {
+          "rel": "SEGMENTATIONS.CONTACTS",
+          "href": "https://api.rd.services/platform/segmentations/4345743/contacts",
+          "media": "application/json",
+          "type": "GET"
+        }
+      ]
+    },
+    {
+      "id": 4345774,
+      "name": "Leads que entram em contato via Formulário do Site",
+      "standard": null,
+      "created_at": "2021-05-27T16:37:43.154-03:00",
+      "updated_at": "2021-07-22T16:42:11.411-03:00",
+      "process_status": "processed",
+      "links": [
+        {
+          "rel": "SEGMENTATIONS.CONTACTS",
+          "href": "https://api.rd.services/platform/segmentations/4345774/contacts",
+          "media": "application/json",
+          "type": "GET"
+        }
+      ]
+    },
+    {
+      "id": 4359222,
+      "name": "Clientes Asa -  Que já alugaram",
+      "standard": null,
+      "created_at": "2021-05-31T16:30:02.896-03:00",
+      "updated_at": "2021-11-26T13:19:33.204-03:00",
+      "process_status": "processed",
+      "links": [
+        {
+          "rel": "SEGMENTATIONS.CONTACTS",
+          "href": "https://api.rd.services/platform/segmentations/4359222/contacts",
+          "media": "application/json",
+          "type": "GET"
+        }
+      ]
+    },
+    {
+      "id": 4533790,
+      "name": "Bounces-corrigidos",
+      "standard": null,
+      "created_at": "2021-07-12T09:44:41.003-03:00",
+      "updated_at": "2021-07-12T09:44:49.440-03:00",
+      "process_status": "processed",
+      "links": [
+        {
+          "rel": "SEGMENTATIONS.CONTACTS",
+          "href": "https://api.rd.services/platform/segmentations/4533790/contacts",
+          "media": "application/json",
+          "type": "GET"
+        }
+      ]
+    },
+    {
+      "id": 4592458,
+      "name": "Clientes que voltaram",
+      "standard": null,
+      "created_at": "2021-07-22T16:46:03.928-03:00",
+      "updated_at": "2021-07-22T16:46:03.928-03:00",
+      "process_status": "processed",
+      "links": [
+        {
+          "rel": "SEGMENTATIONS.CONTACTS",
+          "href": "https://api.rd.services/platform/segmentations/4592458/contacts",
+          "media": "application/json",
+          "type": "GET"
+        }
+      ]
+    },
+    {
+      "id": 4615529,
+      "name": "Clientes_Asa_01.06a27.07.2021",
+      "standard": null,
+      "created_at": "2021-07-27T17:41:14.384-03:00",
+      "updated_at": "2021-07-27T17:41:14.384-03:00",
+      "process_status": "processed",
+      "links": [
+        {
+          "rel": "SEGMENTATIONS.CONTACTS",
+          "href": "https://api.rd.services/platform/segmentations/4615529/contacts",
+          "media": "application/json",
+          "type": "GET"
+        }
+      ]
+    },
+    {
+      "id": 5147176,
+      "name": "Clientes_Asa_28.07 a 26.11.2021",
+      "standard": null,
+      "created_at": "2021-11-26T11:51:44.919-03:00",
+      "updated_at": "2021-11-26T11:51:44.919-03:00",
+      "process_status": "processed",
+      "links": [
+        {
+          "rel": "SEGMENTATIONS.CONTACTS",
+          "href": "https://api.rd.services/platform/segmentations/5147176/contacts",
+          "media": "application/json",
+          "type": "GET"
+        }
+      ]
+    },
+    {
+      "id": 5177654,
+      "name": "LEADS DDD81 02.12.2021",
+      "standard": null,
+      "created_at": "2021-12-02T15:07:14.670-03:00",
+      "updated_at": "2021-12-02T15:07:14.670-03:00",
+      "process_status": "processed",
+      "links": [
+        {
+          "rel": "SEGMENTATIONS.CONTACTS",
+          "href": "https://api.rd.services/platform/segmentations/5177654/contacts",
+          "media": "application/json",
+          "type": "GET"
+        }
+      ]
+    },
+    {
+      "id": 5240001,
+      "name": "ddd81_03a16.12.2021.xls",
+      "standard": null,
+      "created_at": "2021-12-16T17:27:15.872-03:00",
+      "updated_at": "2021-12-16T17:27:15.872-03:00",
+      "process_status": "processed",
+      "links": [
+        {
+          "rel": "SEGMENTATIONS.CONTACTS",
+          "href": "https://api.rd.services/platform/segmentations/5240001/contacts",
+          "media": "application/json",
+          "type": "GET"
+        }
+      ]
+    },
+    {
+      "id": 5531301,
+      "name": "Leads ativos",
+      "standard": true,
+      "created_at": "2022-02-22T15:02:15.775-03:00",
+      "updated_at": "2022-02-22T15:02:15.775-03:00",
+      "process_status": "processed",
+      "links": [
+        {
+          "rel": "SEGMENTATIONS.CONTACTS",
+          "href": "https://api.rd.services/platform/segmentations/5531301/contacts",
+          "media": "application/json",
+          "type": "GET"
+        }
+      ]
+    },
+    {
+      "id": 5531303,
+      "name": "Leads inativos",
+      "standard": true,
+      "created_at": "2022-02-22T15:02:19.661-03:00",
+      "updated_at": "2022-02-22T15:02:19.661-03:00",
+      "process_status": "processed",
+      "links": [
+        {
+          "rel": "SEGMENTATIONS.CONTACTS",
+          "href": "https://api.rd.services/platform/segmentations/5531303/contacts",
+          "media": "application/json",
+          "type": "GET"
+        }
+      ]
+    },
+    {
+      "id": 5865376,
+      "name": "base_lead_17-12-21a06-04-22",
+      "standard": null,
+      "created_at": "2022-04-06T18:30:27.500-03:00",
+      "updated_at": "2022-04-06T18:30:43.555-03:00",
+      "process_status": "processed",
+      "links": [
+        {
+          "rel": "SEGMENTATIONS.CONTACTS",
+          "href": "https://api.rd.services/platform/segmentations/5865376/contacts",
+          "media": "application/json",
+          "type": "GET"
+        }
+      ]
+    },
+    {
+      "id": 5902470,
+      "name": "clientes_GTF_abril2022",
+      "standard": null,
+      "created_at": "2022-04-13T08:54:19.619-03:00",
+      "updated_at": "2022-04-13T08:54:25.318-03:00",
+      "process_status": "processed",
+      "links": [
+        {
+          "rel": "SEGMENTATIONS.CONTACTS",
+          "href": "https://api.rd.services/platform/segmentations/5902470/contacts",
+          "media": "application/json",
+          "type": "GET"
+        }
+      ]
+    },
+    {
+      "id": 7541333,
+      "name": "ddd 81 82 83 84",
+      "standard": null,
+      "created_at": "2022-12-06T14:38:29.949-03:00",
+      "updated_at": "2022-12-06T14:38:40.044-03:00",
+      "process_status": "processed",
+      "links": [
+        {
+          "rel": "SEGMENTATIONS.CONTACTS",
+          "href": "https://api.rd.services/platform/segmentations/7541333/contacts",
+          "media": "application/json",
+          "type": "GET"
+        }
+      ]
+    },
+    {
+      "id": 7774080,
+      "name": "GTF - PROPECT",
+      "standard": null,
+      "created_at": "2023-01-20T14:18:18.408-03:00",
+      "updated_at": "2023-01-20T14:19:48.154-03:00",
+      "process_status": "processed",
+      "links": [
+        {
+          "rel": "SEGMENTATIONS.CONTACTS",
+          "href": "https://api.rd.services/platform/segmentations/7774080/contacts",
+          "media": "application/json",
+          "type": "GET"
+        }
+      ]
+    },
+    {
+      "id": 8688959,
+      "name": "Leads da Landing Page Fortaleza",
+      "standard": null,
+      "created_at": "2023-05-24T17:08:52.232-03:00",
+      "updated_at": "2023-05-24T17:08:52.232-03:00",
+      "process_status": "processed",
+      "links": [
+        {
+          "rel": "SEGMENTATIONS.CONTACTS",
+          "href": "https://api.rd.services/platform/segmentations/8688959/contacts",
+          "media": "application/json",
+          "type": "GET"
+        }
+      ]
+    },
+    {
+      "id": 13199818,
+      "name": "teste 01",
+      "standard": null,
+      "created_at": "2024-07-03T17:03:19.595-03:00",
+      "updated_at": "2024-07-03T17:03:19.595-03:00",
+      "process_status": "processed",
+      "links": [
+        {
+          "rel": "SEGMENTATIONS.CONTACTS",
+          "href": "https://api.rd.services/platform/segmentations/13199818/contacts",
+          "media": "application/json",
+          "type": "GET"
+        }
+      ]
+    },
+    {
+      "id": 13393421,
+      "name": "BLIP 1",
+      "standard": null,
+      "created_at": "2024-07-23T10:47:07.366-03:00",
+      "updated_at": "2024-07-23T10:47:07.366-03:00",
+      "process_status": "processed",
+      "links": [
+        {
+          "rel": "SEGMENTATIONS.CONTACTS",
+          "href": "https://api.rd.services/platform/segmentations/13393421/contacts",
+          "media": "application/json",
+          "type": "GET"
+        }
+      ]
+    },
+    {
+      "id": 13394407,
+      "name": "teste - data (01/07 a 22/07) - campanha relampago",
+      "standard": null,
+      "created_at": "2024-07-23T11:39:16.741-03:00",
+      "updated_at": "2024-07-23T11:39:16.741-03:00",
+      "process_status": "processed",
+      "links": [
+        {
+          "rel": "SEGMENTATIONS.CONTACTS",
+          "href": "https://api.rd.services/platform/segmentations/13394407/contacts",
+          "media": "application/json",
+          "type": "GET"
+        }
+      ]
+    }
+  ]
+}
+###
+POST http://localhost:3000/api/file/send
+Content-Type: application/json
+
+{
+  "base64data":""
+}
